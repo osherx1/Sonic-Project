@@ -26,6 +26,13 @@
 # Visual Studio cache directory
 .vs/
 
+# Ignore Visual Studio Code settings folder
+.vscode/
+
+# Ignore JetBrains Rider settings folder
+.idea/
+
+
 # Gradle cache directory
 .gradle/
 
