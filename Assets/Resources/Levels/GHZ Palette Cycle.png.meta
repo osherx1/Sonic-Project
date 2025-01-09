@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GHZ Palette Cycle_0: 251902668609426058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

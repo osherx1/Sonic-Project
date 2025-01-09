@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sonic1_MD_Map_Ghz2_0: -239907483797071861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
