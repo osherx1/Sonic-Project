@@ -88,6 +88,9 @@ GameObject:
   - component: {fileID: 3307263028396123134}
   - component: {fileID: 3307263028396123121}
   - component: {fileID: 3307263028396123130}
+  - component: {fileID: 8109796478258149914}
+  - component: {fileID: 5762976834002788849}
+  - component: {fileID: 2353083070948921257}
   m_Layer: 5
   m_Name: Title Card
   m_TagString: Untagged
@@ -205,6 +208,54 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8109796478258149914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307263028396123120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477eb253ae391f245922b0aa9f0b2976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5762976834002788849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307263028396123120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698d86d85bc4d4a45abd2ebc383163c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  canvas: {fileID: 0}
+--- !u!114 &2353083070948921257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307263028396123120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9517cc161e46b947ace99496d0d7d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  fadeDelay: 2.25
+  fadeSpeed: 2.31
+  destroyDelay: 0.03333334
+  destroyWhenDone: 0
+  redOffset: -0.25
+  blueOffset: 0
+  greenOffset: -0.25
+  brightness: 0
+  stopTime: 0
 --- !u!1 &3307263028969359003
 GameObject:
   m_ObjectHideFlags: 0

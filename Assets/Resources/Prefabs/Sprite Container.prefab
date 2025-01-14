@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 8830505278744459021}
   - component: {fileID: 8830505278744459020}
   - component: {fileID: 8830505278744459027}
+  - component: {fileID: 5307535808427437434}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -143,6 +144,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5307535808427437434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830505278744459022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef245d386a7277548957a10592cc9ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorClosest: {r: 1, g: 1, b: 1, a: 0.5019608}
+  colorFarthest: {r: 1, g: 1, b: 1, a: 0.23921569}
+  enableOnAwake: 0
+  singleColorShader: 0
+  shareSprite: 1
+  fauxTransparency: 1
+  updateInterval: 0.016
+  ghosts: 4
+  _spriteRenderer: {fileID: 8830505278744459020}
 --- !u!1 &9184965627006813207
 GameObject:
   m_ObjectHideFlags: 0

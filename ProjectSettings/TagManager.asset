@@ -13,21 +13,21 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player - Ignore Top Solid and Raycast
+  - Player - Ignore Top Solid
+  - Player - Rolling
+  - Object - Top Solid Only
+  - Object - Rolling Only
+  - Object - Not Rolling Only
+  - Player - Rolling and Ignore Top Solid
+  - Object - Ignore Player
+  - Player - Default
+  - Object - Monitor Solidity
+  - Object - Monitor Trigger
+  - Object - Ignore Other Objects
+  - Object - Top Solid Only and Ignore Other Objects
+  - Object - Player Only
+  - Object - Player Only and Ignore Raycast
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 2793484635
     locked: 0
