@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 8832037238207843283}
   - component: {fileID: 8832037238207843308}
   - component: {fileID: 5708171160154805358}
+  - component: {fileID: 2357374532348912601}
+  - component: {fileID: 1686190938868108160}
+  - component: {fileID: 7847715725754495659}
+  - component: {fileID: 8020783700966977047}
   m_Layer: 2
   m_Name: Chopper
   m_TagString: Untagged
@@ -79,7 +83,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8166852349591351456, guid: 0f76480beb1b0f543b1cbdc6c51ebe8c, type: 3}
+  m_Sprite: {fileID: 8166852349591351456, guid: 0f76480beb1b0f543b1cbdc6c51ebe8c,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -160,3 +165,61 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &2357374532348912601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832037238207843287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e1641edc1b3f84698c6d6031c2017f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalTypes: 
+--- !u!114 &1686190938868108160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832037238207843287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711ec5d9d612d4a46abe7094b8d62f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpSpeed: 7.75
+  gravity: -0.109375
+--- !u!114 &7847715725754495659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832037238207843287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 0
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 8
+  runEveryOtherFrame: 0
+  enableWait: 0
+--- !u!114 &8020783700966977047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8832037238207843287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdb0796e7fe75b429b2c32aa322725f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

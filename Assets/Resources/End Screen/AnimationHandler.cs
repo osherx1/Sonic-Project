@@ -7,9 +7,10 @@ public class AnimationHandler : MonoBehaviour
     public void OnEndScreenComplete()
     {
         gameObject.SetActive(false); // Disable this object
+
         if (nextObject != null)
         {
-            nextObject.SetActive(true); // Enable the next object
+            nextObject.SetActive(true);
         }
     }
 }

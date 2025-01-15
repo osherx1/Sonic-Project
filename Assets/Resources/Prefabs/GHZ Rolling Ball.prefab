@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5873871066451096187}
   - component: {fileID: 5873871066451096184}
   - component: {fileID: 5873871066451096185}
+  - component: {fileID: 257224678687112654}
+  - component: {fileID: 6085052665586691002}
   m_Layer: 0
   m_Name: GHZ Rolling Ball
   m_TagString: Untagged
@@ -78,7 +80,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5902095187791285264, guid: 11f278167a4f66a4ab22347659fde962, type: 3}
+  m_Sprite: {fileID: 5902095187791285264, guid: 11f278167a4f66a4ab22347659fde962,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,3 +140,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 0
+--- !u!114 &257224678687112654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873871066451096183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 2
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 8
+  runEveryOtherFrame: 0
+  enableWait: 0
+--- !u!114 &6085052665586691002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5873871066451096183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99086aa7346ab74ab13116e8b5dc8ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7742354400456792808}
   - component: {fileID: 455270085183846918}
   - component: {fileID: 128083628651068971}
+  - component: {fileID: 7481857406924325956}
   m_Layer: 0
   m_Name: Shield (Normal)
   m_TagString: Untagged
@@ -77,7 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6717884257390833292, guid: 176dbfc0193e39b4c80d95aba3531ceb, type: 3}
+  m_Sprite: {fileID: -6717884257390833292, guid: 176dbfc0193e39b4c80d95aba3531ceb,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -110,3 +112,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7481857406924325956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2412352915332151852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6e072569e8ac941be48d5eb6664c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  isInvincibility: 0

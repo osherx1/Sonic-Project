@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 2912323669966354155}
   - component: {fileID: 2912323669966354153}
   - component: {fileID: 2912323669966354150}
+  - component: {fileID: 6080043689479193593}
+  - component: {fileID: -701522611559321645}
+  - component: {fileID: 7394227308199922179}
+  - component: {fileID: -8078768431994112933}
   m_Layer: 2
   m_Name: Newtron (Blue)
   m_TagString: Untagged
@@ -80,7 +84,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1674686176289198476, guid: e252f6ea3c1b41541af2884e498256ec, type: 3}
+  m_Sprite: {fileID: 1674686176289198476, guid: e252f6ea3c1b41541af2884e498256ec,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -161,6 +166,62 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.25, y: 0.5, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6080043689479193593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912323669966354159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8932498980870884f907e2a838c28dfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-701522611559321645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912323669966354159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdb0796e7fe75b429b2c32aa322725f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7394227308199922179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912323669966354159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e1641edc1b3f84698c6d6031c2017f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalTypes: 
+--- !u!114 &-8078768431994112933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912323669966354159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 1
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 8
+  runEveryOtherFrame: 0
+  enableWait: 0
 --- !u!1 &2912323670227095361
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +298,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7050129638846038990, guid: e252f6ea3c1b41541af2884e498256ec, type: 3}
+  m_Sprite: {fileID: -7050129638846038990, guid: e252f6ea3c1b41541af2884e498256ec,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1482976943565549607}
   - component: {fileID: 1482976943565549610}
   - component: {fileID: 1482976943565549605}
+  - component: {fileID: 6675849489892453951}
+  - component: {fileID: 7397176268312562686}
   m_Layer: 15
   m_Name: Animal
   m_TagString: Untagged
@@ -79,7 +81,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 9019373763816266724, guid: c80337d69ee26ef4bae66b0cac31f320, type: 3}
+  m_Sprite: {fileID: 9019373763816266724, guid: c80337d69ee26ef4bae66b0cac31f320,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -160,3 +163,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6675849489892453951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482976943565549600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93eb0259dd81fd3479cd38a171ac7e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalType: 0
+  stayInPlace: 0
+--- !u!114 &7397176268312562686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482976943565549600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 2
+  positionType: 0
+  axisType: 2
+  distanceType: 0
+  triggerDistance: 7
+  runEveryOtherFrame: 0
+  enableWait: 0

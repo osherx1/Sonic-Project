@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6919392805362263605}
   - component: {fileID: 3691287531481537228}
   - component: {fileID: 6395937002328145809}
+  - component: {fileID: 9200110067124567421}
   m_Layer: 20
   m_Name: Collision
   m_TagString: Untagged
@@ -107,8 +108,20 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
-  m_CookingOptions: 30
+  m_CookingOptions: 14
   m_Mesh: {fileID: -47135802358851567, guid: 692abeb2281553a4cbce5484c0cfb247, type: 3}
+--- !u!114 &9200110067124567421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100377046935350800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15f6fb7a22c66d49822d3d662a2ffe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3907919536028478421
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,6 +133,7 @@ GameObject:
   - component: {fileID: 4215033589197024900}
   - component: {fileID: 8321841555812533428}
   - component: {fileID: 1584045890085773230}
+  - component: {fileID: 8650733053216610816}
   m_Layer: 0
   m_Name: Breakable Platform
   m_TagString: Untagged
@@ -207,9 +221,10 @@ AudioSource:
   m_GameObject: {fileID: 3907919536028478421}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a, type: 2}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f90dc20406c79ed48bf2e4714baf933d, type: 3}
+  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: d270f4c25d29c044b84959354fa5a78a, type: 3}
+  m_Resource: {fileID: 8300000, guid: d270f4c25d29c044b84959354fa5a78a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -295,3 +310,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8650733053216610816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3907919536028478421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7697db48e1dc254db82007116c94fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

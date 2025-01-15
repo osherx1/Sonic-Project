@@ -44,7 +44,6 @@ public class RenderTextureCamera : MonoBehaviour {
     }
 
     void Update() {
-        integerScaling = GlobalOptions.GetBool("integerScaling");
 
         if (LevelManager.current != null)
             integerScaling &= LevelManager.current.characters.Count <= 1;

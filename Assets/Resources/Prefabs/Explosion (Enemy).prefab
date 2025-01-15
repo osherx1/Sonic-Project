@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8036805760178121902}
   - component: {fileID: 8036805760178121901}
   - component: {fileID: 1740888982790858327}
+  - component: {fileID: -6891256487755810811}
   m_Layer: 0
   m_Name: Explosion (Enemy)
   m_TagString: Untagged
@@ -78,7 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2217470198051517562, guid: 0e5a20e45cc9adc4380997ad0a6db0dd, type: 3}
+  m_Sprite: {fileID: -2217470198051517562, guid: 0e5a20e45cc9adc4380997ad0a6db0dd,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -208,3 +210,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6891256487755810811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8036805760178121900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e8ddc29d4752b4f83637347d249675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

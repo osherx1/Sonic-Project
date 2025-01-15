@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2091102970653240407}
   - component: {fileID: 2091102970653240404}
   - component: {fileID: 2091102970653240405}
+  - component: {fileID: 6568689901333596734}
   m_Layer: 0
   m_Name: Signpost
   m_TagString: Untagged
@@ -79,7 +80,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8811776412340337245, guid: e466a8051f5ec92409576cdc4146d8b5, type: 3}
+  m_Sprite: {fileID: -8811776412340337245, guid: e466a8051f5ec92409576cdc4146d8b5,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -142,7 +144,8 @@ AudioSource:
   m_GameObject: {fileID: 2091102970653240408}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a, type: 2}
+  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 713bacc19c41b7741aed59636157b359, type: 3}
   m_Resource: {fileID: 8300000, guid: 713bacc19c41b7741aed59636157b359, type: 3}
   m_PlayOnAwake: 0
@@ -230,3 +233,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6568689901333596734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091102970653240408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058d7ed5fbd11a44ba7a8cba63741455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNextLevel:
+    m_PersistentCalls:
+      m_Calls: []

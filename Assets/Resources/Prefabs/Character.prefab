@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 1905976648882377143}
   - component: {fileID: 1905976648882377142}
   - component: {fileID: 3665963614499794218}
+  - component: {fileID: 8216883092276525195}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -279,7 +280,8 @@ AudioSource:
   m_GameObject: {fileID: 1905976648882377140}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a, type: 2}
+  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -414,10 +416,25 @@ MonoBehaviour:
   airModeCollider: {fileID: 0}
   isGhost: 0
   isLocalPlayer: 1
-  cameraPrefab: {fileID: 5436403979425966231, guid: 9ea669ad1ee42b74083a8990f053128d, type: 3}
-  spriteContainerPrefab: {fileID: 8830505278574806056, guid: 75d9306b127e69d4091f91e93dc4e84d, type: 3}
-  hudPrefab: {fileID: 4469015201789257982, guid: 69da63c90e433864c83fd930ec9fe520, type: 3}
+  cameraPrefab: {fileID: 5436403979425966231, guid: 9ea669ad1ee42b74083a8990f053128d,
+    type: 3}
+  spriteContainerPrefab: {fileID: 8830505278574806056, guid: 75d9306b127e69d4091f91e93dc4e84d,
+    type: 3}
+  hudPrefab: {fileID: 4469015201789257982, guid: 69da63c90e433864c83fd930ec9fe520,
+    type: 3}
   playerId: -1
+--- !u!114 &8216883092276525195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905976648882377140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3ebe9e6320f8242b22a57059f5edbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1905976649059061196
 GameObject:
   m_ObjectHideFlags: 0

@@ -55,7 +55,7 @@ public class Level : MonoBehaviour {
             if (LevelManager.current.characters.Count == 1) Reload();
             else {
                 if (character == null) return;
-                //ObjTitleCard.Make(character);
+                ObjTitleCard.Make(character);
                 character.Respawn();
             }
         };
@@ -70,7 +70,7 @@ public class Level : MonoBehaviour {
                 foreach(Character character in LevelManager.current.characters) {
                     if (character.currentLevel != this) continue;
                     character.currentLevel = nextLevel;
-                    //ObjTitleCard.Make(character);
+                    ObjTitleCard.Make(character);
                     character.Respawn();
                 }
                 SceneManager.UnloadSceneAsync(gameObject.scene);

@@ -43,6 +43,10 @@ GameObject:
   - component: {fileID: 4075883399458587739}
   - component: {fileID: 4075883399458587740}
   - component: {fileID: 4075883399458587738}
+  - component: {fileID: 3855514769548361087}
+  - component: {fileID: 8585333911206629903}
+  - component: {fileID: -2753963991467369600}
+  - component: {fileID: -1651923787460414671}
   m_Layer: 0
   m_Name: Newtron
   m_TagString: Untagged
@@ -110,7 +114,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2703391444827776958, guid: e252f6ea3c1b41541af2884e498256ec, type: 3}
+  m_Sprite: {fileID: -2703391444827776958, guid: e252f6ea3c1b41541af2884e498256ec,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -164,3 +169,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.21875, y: 1.21875, z: 0.2}
   m_Center: {x: 0.015625, y: -0.609375, z: 0}
+--- !u!114 &3855514769548361087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4075883399458587742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdb0796e7fe75b429b2c32aa322725f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8585333911206629903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4075883399458587742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b0fa87e5b74364894ac3e11ca87d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2753963991467369600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4075883399458587742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e1641edc1b3f84698c6d6031c2017f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalTypes: 
+--- !u!114 &-1651923787460414671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4075883399458587742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 1
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 8
+  runEveryOtherFrame: 0
+  enableWait: 0

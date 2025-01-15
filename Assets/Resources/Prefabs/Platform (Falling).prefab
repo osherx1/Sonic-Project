@@ -76,7 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2695397407002535339, guid: a915e80d5a84b49429db2cbea3cc592b, type: 3}
+  m_Sprite: {fileID: 2695397407002535339, guid: a915e80d5a84b49429db2cbea3cc592b,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,6 +97,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 206227095771766136}
+  - component: {fileID: 1772851686683795918}
+  - component: {fileID: 2227815168641511650}
   m_Layer: 0
   m_Name: Platform (Falling)
   m_TagString: Untagged
@@ -119,6 +122,42 @@ Transform:
   - {fileID: 1473645473807725786}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772851686683795918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206227095771766137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c08ef8feed1e6b4cabf609c6b254942, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  platformColliderObj: {fileID: 7733687345357466035}
+  fallWaitTime: 0.5
+  gravity: -0.007292
+  moveTimeMax: 5
+--- !u!114 &2227815168641511650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206227095771766137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 1
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 16
+  runEveryOtherFrame: 0
+  enableWait: 0
 --- !u!1 &3545020284546873735
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,6 +203,8 @@ GameObject:
   - component: {fileID: 7605963239882606967}
   - component: {fileID: 2587325721628848518}
   - component: {fileID: 2025258983421440725}
+  - component: {fileID: 5057621483403624648}
+  - component: {fileID: 3641213800778715077}
   m_Layer: 11
   m_Name: Plane
   m_TagString: Untagged
@@ -261,3 +302,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &5057621483403624648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7733687345357466035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15f6fb7a22c66d49822d3d662a2ffe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3641213800778715077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7733687345357466035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e372cc0a8c946d419a042d9331d00ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

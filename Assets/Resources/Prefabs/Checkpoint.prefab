@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2656687429064574671}
   - component: {fileID: 2656687429064574514}
   - component: {fileID: 4531131549393158829}
+  - component: {fileID: 2689391638867878721}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
@@ -145,7 +146,8 @@ AudioSource:
   m_GameObject: {fileID: 2656687429064574665}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a, type: 2}
+  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 84ea7aa5a03c32a41a39f0ff7a815772, type: 3}
   m_Resource: {fileID: 8300000, guid: 84ea7aa5a03c32a41a39f0ff7a815772, type: 3}
   m_PlayOnAwake: 0
@@ -233,6 +235,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2689391638867878721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656687429064574665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea365f86c7bdc448837c86bce14ffcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
 --- !u!1 &2656687429154684262
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +442,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5687053067391020586, guid: 279058fcf251e2e4a904c9b85ead4d2e, type: 3}
+  m_Sprite: {fileID: -5687053067391020586, guid: 279058fcf251e2e4a904c9b85ead4d2e,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

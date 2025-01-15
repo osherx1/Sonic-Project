@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6583553026951681913}
   - component: {fileID: 6583553026951681914}
   - component: {fileID: 6583553026951681863}
+  - component: {fileID: 2991568510937594579}
+  - component: {fileID: 2408860557973677260}
   m_Layer: 0
   m_Name: Invincibility Stars
   m_TagString: Untagged
@@ -110,3 +112,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2991568510937594579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583553026951681916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6e072569e8ac941be48d5eb6664c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  isInvincibility: 1
+--- !u!114 &2408860557973677260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583553026951681916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef245d386a7277548957a10592cc9ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorClosest: {r: 1, g: 1, b: 1, a: 1}
+  colorFarthest: {r: 1, g: 1, b: 1, a: 0.09803922}
+  enableOnAwake: 1
+  singleColorShader: 0
+  shareSprite: 1
+  fauxTransparency: 1
+  updateInterval: 0.1166667
+  ghosts: 4
+  _spriteRenderer: {fileID: 6583553026951681914}

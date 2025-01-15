@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 8416335051462198358}
   - component: {fileID: 8416335051462198359}
   - component: {fileID: 8416335051462198361}
+  - component: {fileID: -5074405499755144287}
+  - component: {fileID: -3858921691528850332}
+  - component: {fileID: -2282457798502639238}
+  - component: {fileID: 5927206310861698011}
   m_Layer: 2
   m_Name: Motobug
   m_TagString: Untagged
@@ -78,7 +82,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1474720688068573390, guid: 588099230618b234cbe9010af1d2f32f, type: 3}
+  m_Sprite: {fileID: -1474720688068573390, guid: 588099230618b234cbe9010af1d2f32f,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -132,3 +137,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.25, y: 0.9375, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-5074405499755144287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416335051462198355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ce2f9dc080f7b4a830cf4ffe263c35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3858921691528850332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416335051462198355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdb0796e7fe75b429b2c32aa322725f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2282457798502639238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416335051462198355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e1641edc1b3f84698c6d6031c2017f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalTypes: 
+--- !u!114 &5927206310861698011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416335051462198355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 1
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 9
+  runEveryOtherFrame: 0
+  enableWait: 0

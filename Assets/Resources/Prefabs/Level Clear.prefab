@@ -76,7 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5671483957690330248, guid: a2d098a13e2d688418b4d359d28078a7, type: 3}
+  m_Sprite: {fileID: 5671483957690330248, guid: a2d098a13e2d688418b4d359d28078a7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -356,7 +357,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2204121450685953901, guid: a2d098a13e2d688418b4d359d28078a7, type: 3}
+  m_Sprite: {fileID: 2204121450685953901, guid: a2d098a13e2d688418b4d359d28078a7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -381,6 +383,7 @@ GameObject:
   - component: {fileID: 6972988831207416390}
   - component: {fileID: 3964537118137843319}
   - component: {fileID: 5992335886800075008}
+  - component: {fileID: 8382651508784975704}
   m_Layer: 5
   m_Name: Level Clear
   m_TagString: Untagged
@@ -508,7 +511,8 @@ AudioSource:
   m_GameObject: {fileID: 1675839010281202215}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a, type: 2}
+  OutputAudioMixerGroup: {fileID: -8577423528246303672, guid: 936b30df18d59004b8060790dd7b520a,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -596,6 +600,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8382651508784975704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675839010281202215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1281ba5063201434aa809d055c4c63fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNextLevel:
+    m_PersistentCalls:
+      m_Calls: []
+  character: {fileID: 0}
 --- !u!1 &2419127601489483858
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +692,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2204121450685953901, guid: a2d098a13e2d688418b4d359d28078a7, type: 3}
+  m_Sprite: {fileID: 2204121450685953901, guid: a2d098a13e2d688418b4d359d28078a7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1030,7 +1051,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2204121450685953901, guid: a2d098a13e2d688418b4d359d28078a7, type: 3}
+  m_Sprite: {fileID: 2204121450685953901, guid: a2d098a13e2d688418b4d359d28078a7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1501,7 +1523,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5037829782645651596, guid: a2d098a13e2d688418b4d359d28078a7, type: 3}
+  m_Sprite: {fileID: -5037829782645651596, guid: a2d098a13e2d688418b4d359d28078a7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

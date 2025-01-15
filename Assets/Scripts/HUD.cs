@@ -42,30 +42,14 @@ public class HUD : MonoBehaviour {
         sb.Append(":");
         if (seconds < 10) sb.Append("0");
         sb.Append(Utils.IntToStrCached(seconds));
-
-        if (GlobalOptions.Get("timerType") != "NORMAL") {
-            sb.Append(":");
-            int preciseTime = 0;
-            
-            if (GlobalOptions.Get("timerType") == "CENTISECOND")
-                preciseTime = (int)((character.timer % 1) * 100F);
-            
-            if (GlobalOptions.Get("timerType") == "FRAMES")
-                preciseTime = (int)((character.timer * 60) % 60);
-
-            if (preciseTime < 10) sb.Append("0");
-            sb.Append(Utils.IntToStrCached(preciseTime));
-        }
+        
         
         timeText.text = sb.ToString();
 
         bool shouldFlash = (((int)(Time.unscaledTime * 60)) % 16) > 8;
         if (shouldFlash) {
             if (character.rings <= 0) ringsTitleText.color = Color.red;
-    
-            if (GlobalOptions.GetBool("timeLimit"))
-                if (character.timer >= 9 * 60) timeTitleText.color = Color.red;
-        } else {
+            
             timeTitleText.color = Color.white;
             ringsTitleText.color = Color.white;
         }

@@ -19,7 +19,14 @@ public class LevelManager : GameMode {
     // Inspector options
     public bool debugMutliplayer = true; // Allows P1 to spawn multiple players
     private string defaultScenePath = @"Resources\Levels\GHZ1\GHZ1\";
-    [SerializeField] private string defaultSceneName = "GHZ1"; // Scene name, as listed in Build Settings
+    public string defaultSceneName = "GHZ1";
+    public string secondSceneName = "GHZ2";
+    public string thirdSceneName = "GHZ3";
+    public string DefaultSceneName => defaultSceneName;
+    public string SecondSceneName => secondSceneName;
+    public string ThirdSceneName => thirdSceneName;
+
+
     // ========================================================================
 
     public HashSet<Character> characters = new HashSet<Character>();
@@ -95,29 +102,34 @@ public class LevelManager : GameMode {
         return id + 1;
     }
 
-    // Allows players to press Start to join the game.
-    // public int maxPlayers = 4;
-    // public void UpdateStartJoin() {
-    //     for(int controllerId = 1; controllerId <= maxPlayers; controllerId++) {
-    //         if (InputCustom.GetButtonDown(controllerId, "Pause")) {
-    //             bool alreadySpawned = false;
-    //             foreach (Character character in characters) {
-    //                 if (character.input.controllerId == controllerId) {
-    //                     if (!debugMutliplayer) {
-    //                         alreadySpawned = true;
-    //                         break;
-    //                     }
-    //                 }
-    //             }
-    //             if (alreadySpawned) continue;
+    public static string GetCurrentLevelName() {
+    for (int i = 0; i < SceneManager.sceneCount; i++) {
+        Scene scene = SceneManager.GetSceneAt(i);
+        if (scene.isLoaded) {
+            foreach (GameObject obj in scene.GetRootGameObjects()) {
+                if (obj.GetComponent<Level>() != null) {
+                    return scene.name; // Return the name of the level scene
+                }
+            }
+        }
+    }
+    Debug.LogError("Current level scene not found!");
+    return null;
+}
 
-    //             Character characterNew = Instantiate(
-    //                 Resources.Load<GameObject>("Character/Character"),
-    //                 transform
-    //             ).GetComponent<Character>();
-    //             Utils.SetScene(characterNew.transform, "Level");
-    //             characterNew.input.controllerId = controllerId;
-    //         }
-    //     }
-    // }
+public static string GetNextScene(string currentSceneName) {
+    if (currentSceneName == current.DefaultSceneName) {
+        return current.SecondSceneName;
+    } else if (currentSceneName == current.SecondSceneName) {
+        return current.ThirdSceneName;
+    } else if (currentSceneName == current.ThirdSceneName) {
+        return "End Screen"; // Replace with your actual end screen name
+    }
+
+    Debug.LogWarning("No next scene found for current scene: " + currentSceneName);
+    return null;
+}
+
+
+
 }

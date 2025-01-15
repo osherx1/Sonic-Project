@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 6681948602588035124}
   - component: {fileID: 6681948602588035087}
   - component: {fileID: 6681948602588035085}
+  - component: {fileID: 581131844229497474}
+  - component: {fileID: 7271009018759107116}
+  - component: {fileID: 8494939733667785920}
+  - component: {fileID: 1538880443606544877}
   m_Layer: 0
   m_Name: Buzz Bomber
   m_TagString: Untagged
@@ -82,7 +86,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3758602697283428548, guid: 9ca66ad37dcac154cab686ff8298e2de, type: 3}
+  m_Sprite: {fileID: 3758602697283428548, guid: 9ca66ad37dcac154cab686ff8298e2de,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -163,6 +168,62 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &581131844229497474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6681948602588035125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909c4aec5bfa0904baddafdd3b077620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7271009018759107116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6681948602588035125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bdb0796e7fe75b429b2c32aa322725f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8494939733667785920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6681948602588035125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e1641edc1b3f84698c6d6031c2017f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalTypes: 
+--- !u!114 &1538880443606544877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6681948602588035125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c05ace118fbf4bbc2e61e1118ab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableType: 1
+  positionType: 0
+  axisType: 0
+  distanceType: 2
+  triggerDistance: 10
+  runEveryOtherFrame: 0
+  enableWait: 0
 --- !u!1 &6681948603491823045
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +301,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7781687622702902622, guid: 9ca66ad37dcac154cab686ff8298e2de, type: 3}
+  m_Sprite: {fileID: 7781687622702902622, guid: 9ca66ad37dcac154cab686ff8298e2de,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -349,7 +411,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 9132367525280111028, guid: 9ca66ad37dcac154cab686ff8298e2de, type: 3}
+  m_Sprite: {fileID: 9132367525280111028, guid: 9ca66ad37dcac154cab686ff8298e2de,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -436,7 +499,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4082887247135760272, guid: 9ca66ad37dcac154cab686ff8298e2de, type: 3}
+  m_Sprite: {fileID: -4082887247135760272, guid: 9ca66ad37dcac154cab686ff8298e2de,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
