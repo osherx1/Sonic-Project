@@ -3869,6 +3869,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1115634030}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &269567064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 269567066}
+  - component: {fileID: 269567065}
+  m_Layer: 0
+  m_Name: EndScreenListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &269567065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269567064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c18abf0a5bdc7145b49853feb1fb4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &269567066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269567064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 323.41147, y: -20.149853, z: -12.9728155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &271811887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18567,7 +18611,8 @@ PrefabInstance:
       value: Crabmeat (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4097639823828501378, guid: 601bb67ec6460f749a43ff1ceba8348d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 601bb67ec6460f749a43ff1ceba8348d, type: 3}
@@ -22449,7 +22494,8 @@ PrefabInstance:
       value: Crabmeat (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4097639823828501378, guid: 601bb67ec6460f749a43ff1ceba8348d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 601bb67ec6460f749a43ff1ceba8348d, type: 3}
@@ -33674,7 +33720,8 @@ PrefabInstance:
       value: Crabmeat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4097639823828501378, guid: 601bb67ec6460f749a43ff1ceba8348d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 601bb67ec6460f749a43ff1ceba8348d, type: 3}
@@ -34185,3 +34232,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1017651142}
   - {fileID: 1574130596}
+  - {fileID: 269567066}

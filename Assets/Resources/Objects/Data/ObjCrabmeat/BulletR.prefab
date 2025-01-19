@@ -207,4 +207,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ba00c5d5be58488c623d0be1eb2c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intialVelocity: {x: 1.875, y: 7.5, z: 0}
+  intialVelocity: {x: 1.87, y: 7.5, z: 0}

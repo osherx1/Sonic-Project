@@ -26,6 +26,8 @@ public class LevelManager : GameMode {
     public string SecondSceneName => secondSceneName;
     public string ThirdSceneName => thirdSceneName;
 
+    public string endSceneName = @"Scenes\End Screen"; // Replace with your actual end screen name
+
 
     // ========================================================================
 
@@ -42,32 +44,54 @@ public class LevelManager : GameMode {
         ReloadDisposablesScene();
     }
 
-  void Start()
+void Start()
 {
     // Must be run on Start rather than Awake to give any Levels time to spawn
     Utils.SetActiveScene("Level");
 
     // Check if a Level is already loaded in the scene
     Level levelDefault = FindObjectOfType<Level>();
+    // Determine the scene name to load: use defaultScenePath if no scene is provided
+    string sceneNameToLoad = string.IsNullOrEmpty(defaultSceneName)
+        ? defaultScenePath // Use the default scene name
+        : defaultSceneName; // Use the provided scene name
     if (levelDefault == null)
     {
-        // Determine the scene name to load: use defaultScenePath if no scene is provided
-        string sceneNameToLoad = string.IsNullOrEmpty(defaultSceneName)
-            ? defaultScenePath // Use the default scene name
-            : defaultSceneName; // Use the provided scene name
-
         Debug.Log($"Loading scene: {sceneNameToLoad}");
 
         // Start asynchronous scene loading
         StartCoroutine(Utils.LoadLevelAsync(
             sceneNameToLoad, // Pass the scene name
-            (Level level) => InitCharacter() // Callback after loading the scene
+            (Level level) =>
+            {
+                InitCharacter(); // Callback after loading the scene
+                CheckCurrentScene(); // Verify the loaded scene
+            }
         ));
     }
     else
     {
         // Initialize the character immediately if the scene is already loaded
         InitCharacter();
+        CheckCurrentScene(); // Verify the current scene
+        Debug.Log($"Scene already loaded: {sceneNameToLoad}");
+        
+    }
+}
+
+/// <summary>
+/// Checks which scene is currently active among the target scenes.
+/// </summary>
+void CheckCurrentScene()
+{
+    string currentSceneName = GetCurrentLevelNumber();
+    if (!string.IsNullOrEmpty(currentSceneName))
+    {
+        Debug.Log($"Current active level: {currentSceneName}");
+    }
+    else
+    {
+        Debug.LogError("No valid level scene found among active scenes!");
     }
 }
 
@@ -80,7 +104,6 @@ public class LevelManager : GameMode {
         if (disposablesCurrent.isLoaded)
             SceneManager.SetActiveScene(disposablesCurrent);
 
-        // UpdateStartJoin();
     }
 
     public void ReloadDisposablesScene() {
@@ -102,33 +125,78 @@ public class LevelManager : GameMode {
         return id + 1;
     }
 
-    public static string GetCurrentLevelName() {
+    public string GetCurrentLevelName() {
     for (int i = 0; i < SceneManager.sceneCount; i++) {
         Scene scene = SceneManager.GetSceneAt(i);
         if (scene.isLoaded) {
-            foreach (GameObject obj in scene.GetRootGameObjects()) {
-                if (obj.GetComponent<Level>() != null) {
-                    return scene.name; // Return the name of the level scene
+            string sceneName = scene.name;
+            // Check if the scene name matches any of the three target scenes
+            if (sceneName == current.DefaultSceneName || 
+                sceneName == current.SecondSceneName || 
+                sceneName == current.ThirdSceneName) {
+                return endSceneName;
+            }
+        }
+    }
+    Debug.LogError("No matching level scene found among active scenes!");
+    return null;
+}
+
+public static string GetCurrentLevelNumber()
+{
+    for (int i = 0; i < SceneManager.sceneCount; i++)
+    {
+        Scene scene = SceneManager.GetSceneAt(i);
+        if (scene.isLoaded)
+        {
+            foreach (GameObject obj in scene.GetRootGameObjects())
+            {
+                Level level = obj.GetComponent<Level>();
+                if (level != null)
+                {
+                    // Use the `act` variable to determine the scene
+                    switch (level.act)
+                    {
+                        case 1:
+                            return current.DefaultSceneName; // GHZ1
+                        case 2:
+                            return current.SecondSceneName; // GHZ2
+                        case 3:
+                            return current.ThirdSceneName; // GHZ3
+                        default:
+                            Debug.LogWarning($"Unknown act value: {level.act}");
+                            break;
+                    }
                 }
             }
         }
     }
-    Debug.LogError("Current level scene not found!");
+
+    Debug.LogError("No matching level scene found among active scenes!");
     return null;
 }
 
-public static string GetNextScene(string currentSceneName) {
-    if (currentSceneName == current.DefaultSceneName) {
-        return current.SecondSceneName;
-    } else if (currentSceneName == current.SecondSceneName) {
-        return current.ThirdSceneName;
-    } else if (currentSceneName == current.ThirdSceneName) {
-        return "End Screen"; // Replace with your actual end screen name
+
+
+public static string GetNextScene(string currentSceneName)
+{
+    if (currentSceneName == current.DefaultSceneName) // GHZ1
+    {
+        return current.endSceneName; // Always go to "End Screen" after GHZ1
+    }
+    else if (currentSceneName == current.SecondSceneName) // GHZ2
+    {
+        return current.ThirdSceneName; // GHZ2 -> GHZ3
+    }
+    else if (currentSceneName == current.ThirdSceneName) // GHZ3
+    {
+        return current.endSceneName; // GHZ3 -> "End Screen"
     }
 
     Debug.LogWarning("No next scene found for current scene: " + currentSceneName);
     return null;
 }
+
 
 
 

@@ -24,12 +24,6 @@ EditorBuildSettings:
     path: Assets/Resources/Levels/GHZ1/GHZ1.unity
     guid: ca5177b7b77b57044a8be1dd603da8ba
   - enabled: 1
-    path: Assets/Resources/Levels/GHZ2/GHZ2.unity
-    guid: e88ac7f6fe574fa469ae5e99afdc8ea1
-  - enabled: 1
-    path: Assets/Resources/Levels/GHZ3/GHZ3.unity
-    guid: 2163690874be5a8488e909fa0ecd947c
-  - enabled: 1
     path: Assets/Scenes/End Screen.unity
     guid: 492e6838e03034c439e1c424d49f494d
   m_configObjects:

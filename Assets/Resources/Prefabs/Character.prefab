@@ -397,6 +397,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   spriteContainer: {fileID: 0}
   opacity: 1
+  shield: {fileID: 0}
   currentLevel: {fileID: 0}
   timer: 0
   timerPause: 0

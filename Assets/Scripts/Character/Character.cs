@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System;
 
 public class Character : GameBehaviour {  
+
+    
     public CharacterStats stats = new CharacterStats();
 
     // ====================== //
@@ -196,6 +198,7 @@ public class Character : GameBehaviour {
 
     public RaycastHit GetSolidRaycast(Vector3 direction, float maxDistance = 0.8F) {
         RaycastHit hit;
+        Debug.DrawRay(position, direction.normalized * maxDistance, Color.red, 0.1f);
         Physics.Raycast(
             position, // origin
             direction.normalized, // direction
@@ -264,8 +267,11 @@ public class Character : GameBehaviour {
     public bool GroundSnap() {
         RaycastHit hit = GetGroundRaycast();
         balanceState = BalanceState.None;
+        Debug.DrawRay(position, -transform.up * 0.8F * sizeScale, Color.red, 0.1f);
+
 
         if (GetIsGrounded(hit)) {
+            // Debug.Log("Character grounded: " + hit.collider.gameObject.name);
             transform.eulerAngles = new Vector3(
                 0,
                 0,
@@ -273,11 +279,12 @@ public class Character : GameBehaviour {
             );
 
             Vector3 newPos = hit.point + (transform.up * 0.5F * sizeScale);
-            newPos.z = position.z; // Comment this for 3D movement
+            newPos.z = position.z;
             position = newPos;
             groundedDetectorCurrent = hit.transform.GetComponentInChildren<CharacterGroundedDetector>();
             return true;
         } 
+        //else{Debug.Log("Character not grounded.");}
 
         // Didn't find the ground from the player center
         // We might be on a ledge. Better check to the left and right of
