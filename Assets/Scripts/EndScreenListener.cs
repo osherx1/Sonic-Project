@@ -1,6 +1,6 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class EndScreenListener : MonoBehaviour {
     void OnEnable() {
@@ -13,14 +13,16 @@ public class EndScreenListener : MonoBehaviour {
         GlobalEventSystem.OnTransitionToEndScreen.RemoveListener(HandleTransitionToEndScreen);
     }
 
-    void HandleTransitionToEndScreen() {
-        Debug.Log("Received transition event. Waiting 8 seconds...");
-        StartCoroutine(WaitAndLoadEndScreen());
+    void HandleTransitionToEndScreen(bool shouldWait) {
+        Debug.Log($"Received transition event. Should wait: {shouldWait}");
+        StartCoroutine(WaitAndLoadEndScreen(shouldWait));
     }
 
-    IEnumerator WaitAndLoadEndScreen() {
-        // Wait for 8 seconds
-        yield return new WaitForSeconds(15f);
+    IEnumerator WaitAndLoadEndScreen(bool shouldWait) {
+        if (shouldWait) {
+            Debug.Log("Waiting 10 seconds before loading End Screen...");
+            yield return new WaitForSeconds(12f);
+        }
 
         // Load the End Screen scene
         Debug.Log("Loading End Screen...");

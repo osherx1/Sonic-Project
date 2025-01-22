@@ -1,6 +1,6 @@
-using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Events;
 
 public static class GlobalEventSystem {
-    public static UnityEvent OnTransitionToEndScreen = new UnityEvent();
+    public static readonly UnityEvent<bool> OnTransitionToEndScreen = new UnityEvent<bool>();
 }

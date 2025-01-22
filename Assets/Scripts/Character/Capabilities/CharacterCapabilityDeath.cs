@@ -37,7 +37,7 @@ public class CharacterCapabilityDeath : CharacterCapability {
             character.shield = null;
             character.ClearEffects();
             dyingTimer = 3F;
-
+            
             if (character.stateCurrent == "drowning") {
                 character.velocity = Vector3.zero;
                 SFX.Play(character.audioSource, "sfxDrown");
@@ -51,9 +51,13 @@ public class CharacterCapabilityDeath : CharacterCapability {
             }
         } else if (character.stateCurrent == "dead") {
             character.lives--;
-            if (LevelManager.current.characters.Count == 1) {
+            if (character.lives == 0) {
+                GlobalEventSystem.OnTransitionToEndScreen.Invoke(false);
+            }
+            else if (LevelManager.current.characters.Count == 1) {
                 character.currentLevel.ReloadFadeOut(character);
-            } else character.SoftRespawn();
+            }
+             else character.SoftRespawn();
         }
     }
 

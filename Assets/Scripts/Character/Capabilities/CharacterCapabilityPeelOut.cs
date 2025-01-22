@@ -9,7 +9,7 @@ public class CharacterCapabilityPeelOut : CharacterCapability {
     // =========== //
 
     Transform dustLocation;
-    GameObject dust = null;
+    //GameObject dust = null;
 
     // =========== //
 
@@ -61,7 +61,6 @@ public class CharacterCapabilityPeelOut : CharacterCapability {
         UpdateSpindashAnim(deltaTime);
     }
 
-    // 3D-Ready: YES
     void UpdateSpindashInput() {
         if (!character.input.GetAxisPositive("Vertical"))
             SpindashRelease();
@@ -79,7 +78,6 @@ public class CharacterCapabilityPeelOut : CharacterCapability {
         character.stateCurrent = "ground";
     }
 
-    // 3D-Ready: YES
     void UpdateSpindashAnim(float deltaTime) {
         character.spriteContainer.transform.eulerAngles = character.GetSpriteRotation(deltaTime);
         character.flipX = !character.facingRight;

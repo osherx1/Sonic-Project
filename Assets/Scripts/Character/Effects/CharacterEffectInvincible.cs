@@ -15,8 +15,8 @@ public class CharacterEffectInvincible : CharacterEffect {
          }
 
         musicStackEntry = new MusicManager.MusicStackEntry {
-            introPath = "Music/Invincibility Intro",
-            loopPath = "Music/Invincibility Loop",
+            introPath = "Sound/Music/Invincibility Intro",
+            loopPath = "Sound/Music/Invincibility Loop",
             priority = 1
         };
         MusicManager.current.Add(musicStackEntry);

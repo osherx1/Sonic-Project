@@ -564,7 +564,6 @@ public class Character : GameBehaviour {
         HasEffect("invincible")
     );
 
-    // 3D-Ready: NO
     public void Hurt(bool moveLeft = true, bool spikes = false) {
         if (isInvulnerable) return;
         
@@ -583,7 +582,7 @@ public class Character : GameBehaviour {
         }
 
         stateCurrent = "hurt";
-        velocity = new Vector3( // TODO: 3D
+        velocity = new Vector3(
             2 * (moveLeft ? -1 : 1)  * physicsScale,
             4 * physicsScale,
             velocity.z
