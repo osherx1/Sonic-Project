@@ -32,8 +32,6 @@ MonoBehaviour:
     m_path: Assets/Scenes/Disposables.unity
   - m_enabled: 1
     m_path: Assets/Resources/Levels/GHZ1/GHZ1.unity
-  - m_enabled: 0
-    m_path: Assets/Resources/Levels/GHZ3/GHZ3.unity
   - m_enabled: 1
     m_path: Assets/Scenes/End Screen.unity
   m_ScriptingDefines:

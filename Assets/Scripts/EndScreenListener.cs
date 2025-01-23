@@ -22,10 +22,13 @@ public class EndScreenListener : MonoBehaviour {
         if (shouldWait) {
             Debug.Log("Waiting 10 seconds before loading End Screen...");
             yield return new WaitForSeconds(12f);
+
+            Debug.Log("Loading End Screen...");
+            SceneManager.LoadScene("End Screen");
         }
 
         // Load the End Screen scene
-        Debug.Log("Loading End Screen...");
-        SceneManager.LoadScene("End Screen");
+        Debug.Log("Loading BAD End Screen...");
+        SceneManager.LoadScene("End Screen BAD");
     }
 }

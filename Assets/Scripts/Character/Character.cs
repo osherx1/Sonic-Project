@@ -198,7 +198,7 @@ public class Character : GameBehaviour {
 
     public RaycastHit GetSolidRaycast(Vector3 direction, float maxDistance = 0.8F) {
         RaycastHit hit;
-        Debug.DrawRay(position, direction.normalized * maxDistance, Color.red, 0.1f);
+        //Debug.DrawRay(position, direction.normalized * maxDistance, Color.red, 0.1f);
         Physics.Raycast(
             position, // origin
             direction.normalized, // direction
@@ -267,7 +267,7 @@ public class Character : GameBehaviour {
     public bool GroundSnap() {
         RaycastHit hit = GetGroundRaycast();
         balanceState = BalanceState.None;
-        Debug.DrawRay(position, -transform.up * 0.8F * sizeScale, Color.red, 0.1f);
+        //Debug.DrawRay(position, -transform.up * 0.8F * sizeScale, Color.red, 0.1f);
 
 
         if (GetIsGrounded(hit)) {
