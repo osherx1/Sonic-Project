@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 101576009}
   - component: {fileID: 101576013}
   - component: {fileID: 101576014}
+  - component: {fileID: 101576015}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -371,6 +372,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   referenceResolution: {x: 1920, y: 1080}
   mainCamera: {fileID: 101576011}
+--- !u!114 &101576015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101576008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c966e32f368ea1b438bf7361e394bbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenRectRelative:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1001 &104247650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,7 +1379,7 @@ MonoBehaviour:
   pathCreator: {fileID: 837687564}
   spawnPoint: {fileID: 759211371}
   spawnInterval: 0.1
-  speed: 1.88
+  speed: 2
   endOfPathInstruction: 1
 --- !u!4 &1976016834
 Transform:
