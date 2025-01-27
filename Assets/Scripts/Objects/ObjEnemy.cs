@@ -100,8 +100,8 @@ public class ObjEnemy : MonoBehaviour {
 
     void Update() { }
 
-     void Awake() {
-        // Initialize the array with the desired size
-        animalTypes = new ObjAnimal.AnimalType[100];
-    }
+    //  void Awake() {
+    //     // Initialize the array with the desired size
+    //     animalTypes = new ObjAnimal.AnimalType[100];
+    // }
 }

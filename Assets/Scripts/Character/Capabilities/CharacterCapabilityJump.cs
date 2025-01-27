@@ -35,7 +35,6 @@ public class CharacterCapabilityJump : CharacterCapability {
     // Switches the character to jump state if connditions are met:
     // - Pressing jump key
     // See: https://info.sonicretro.org/SPG:Solid_Tiles
-    // 3D-Ready: YES
     void UpdateGroundJump() {
         if (character.InStateGroup("noJump")) return;
         if (!character.input.GetButtonsDownPreventRepeat(buttonsJump)) return;
@@ -44,8 +43,8 @@ public class CharacterCapabilityJump : CharacterCapability {
         SFX.PlayOneShot(character.audioSource, "sfxJump");
         character.stateCurrent = "jump";
     }
-
-    // 3D-Ready: YES
+    
+    
     void UpdateJumpHeight() {
         if (!character.input.GetButtons(buttonsJumpHold)) {
             if (character.velocity.y > 4 * character.physicsScale)
