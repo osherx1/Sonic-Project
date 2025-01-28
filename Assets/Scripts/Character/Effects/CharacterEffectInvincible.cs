@@ -11,8 +11,7 @@ public class CharacterEffectInvincible : CharacterEffect {
             ObjShield stars = GameObject.Instantiate(
                  Constants.Get<GameObject>("prefabInvincibilityStars")
              ).GetComponent<ObjShield>();
-             stars.character = character;
-         }
+             stars.character = character; }
 
         musicStackEntry = new MusicManager.MusicStackEntry {
             introPath = "Sound/Music/Invincibility Intro",

@@ -365,6 +365,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (Falling) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -399,10 +404,15 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2242718754547685786, guid: a37f986f7d496574d9f37af83c783778,
+        type: 3}
+      propertyPath: moveTimeMax
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 1.81
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -9398,6 +9408,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (Falling) (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 2587325721628848518, guid: a62bfb89d0c8412408b1b74bc68629b2,
         type: 3}
       propertyPath: m_Enabled
@@ -9503,7 +9518,7 @@ PrefabInstance:
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -10765,7 +10780,7 @@ PrefabInstance:
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -2.05
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -13972,7 +13987,7 @@ PrefabInstance:
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -2.06
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -14976,6 +14991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (Falling) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15192,6 +15212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (Falling) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15672,6 +15697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (Falling) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16306,6 +16336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (Falling) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2587325721628848518, guid: a62bfb89d0c8412408b1b74bc68629b2,
         type: 3}
@@ -20275,6 +20310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (Falling) (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20855,7 +20895,7 @@ PrefabInstance:
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -22770,6 +22810,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (Falling) (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23953,6 +23998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (Falling) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26998,7 +27048,7 @@ PrefabInstance:
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 1.74
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -29335,6 +29385,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (Falling) (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29765,10 +29820,25 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 971886468681393276, guid: a37f986f7d496574d9f37af83c783778,
+        type: 3}
+      propertyPath: enableWait
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242718754547685786, guid: a37f986f7d496574d9f37af83c783778,
+        type: 3}
+      propertyPath: gravity
+      value: -0.007292
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242718754547685786, guid: a37f986f7d496574d9f37af83c783778,
+        type: 3}
+      propertyPath: moveTimeMax
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -2.21
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -30610,6 +30680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (Falling) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32267,7 +32342,7 @@ PrefabInstance:
     - target: {fileID: 2714818396287238682, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 2.27
       objectReference: {fileID: 0}
     - target: {fileID: 2925677559676280641, guid: a37f986f7d496574d9f37af83c783778,
         type: 3}
@@ -32477,6 +32552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (Falling)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772851686683795918, guid: a62bfb89d0c8412408b1b74bc68629b2,
+        type: 3}
+      propertyPath: fallWaitTime
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
