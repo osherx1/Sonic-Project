@@ -161,7 +161,7 @@ IEnumerator LoadDisposablesAndNextScene(string nextScene) {
                 character.effects.Clear();
 
                 MusicManager.current.Play(new MusicManager.MusicStackEntry {
-                    introPath = "Music/Level Clear"
+                    introPath = "Sound/Music/Level Clear"
                 });
             }
             return;

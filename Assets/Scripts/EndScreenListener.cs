@@ -3,14 +3,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class EndScreenListener : MonoBehaviour {
+
+    public ObjGameOver objGameOver;
+
     void OnEnable() {
         // Subscribe to the event
         GlobalEventSystem.OnTransitionToEndScreen.AddListener(HandleTransitionToEndScreen);
+        GlobalEventSystem.OnActivateGameOver.AddListener(ActivateGameOver);
     }
 
     void OnDisable() {
         // Unsubscribe from the event
         GlobalEventSystem.OnTransitionToEndScreen.RemoveListener(HandleTransitionToEndScreen);
+        GlobalEventSystem.OnActivateGameOver.RemoveListener(ActivateGameOver);
     }
 
     void HandleTransitionToEndScreen(bool shouldWait) {
@@ -27,6 +32,20 @@ public class EndScreenListener : MonoBehaviour {
         } else {
             Debug.Log("Loading BAD End Screen...");
             SceneManager.LoadScene("End Screen BAD");
+        }
+    }
+
+
+    void ActivateGameOver()
+    {
+        Debug.Log("Activating Game Over canvas...");
+        if (objGameOver != null)
+        {
+            objGameOver.ActivateGameOver();
+        }
+        else
+        {
+            Debug.LogWarning("ObjGameOver reference is missing! Ensure it is assigned in the Inspector.");
         }
     }
 }

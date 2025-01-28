@@ -7,6 +7,7 @@ public class Character : GameBehaviour {
 
     
     public CharacterStats stats = new CharacterStats();
+    
 
     // ====================== //
 

@@ -42,7 +42,8 @@ public static class Constants {
         ["prefabTitleCard"] = "Prefabs/Title Card",
         ["prefabInvincibilityStars"] = "Prefabs/Invincibility Stars",
         ["prefabRingSparkle"] = "Prefabs/Ring Sparkle",
-        ["prefabGHZBall"] = "Prefabs/GHZ Rolling Ball"
+        ["prefabGHZBall"] = "Prefabs/GHZ Rolling Ball",
+        ["prefabGameOver"] = "Prefabs/Game Over",
     };
 
     public static string Get(string key) => defaults[key];

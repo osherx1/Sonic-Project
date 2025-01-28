@@ -57,8 +57,8 @@ public class MusicManager : MonoBehaviour {
     float fadeVolume = 1F;
     float fadeSpeed = 0.333F;
 
-    AudioSource audioSourceIntro;
-    AudioSource audioSourceLoop;
+    public AudioSource audioSourceIntro;
+    public AudioSource audioSourceLoop;
     AudioMixer mixer;
     AudioMixerGroup mixerGroup;
 

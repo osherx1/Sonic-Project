@@ -52,7 +52,7 @@ public class CharacterCapabilityDeath : CharacterCapability {
         } else if (character.stateCurrent == "dead") {
             character.lives--;
             if (character.lives == 0) {
-                GlobalEventSystem.OnTransitionToEndScreen.Invoke(false);
+                GlobalEventSystem.OnActivateGameOver.Invoke();
             }
             else if (LevelManager.current.characters.Count == 1) {
                 character.currentLevel.ReloadFadeOut(character);

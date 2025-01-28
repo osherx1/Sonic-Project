@@ -10,6 +10,7 @@ public class LevelManager : GameMode {
     // However, that shouldn't ever need to happen. I hope.
 
     static LevelManager _current;
+    
     public static LevelManager current { get {
         if (_current == null)
             _current = GameObject.FindObjectOfType<LevelManager>();
@@ -27,7 +28,6 @@ public class LevelManager : GameMode {
     public string ThirdSceneName => thirdSceneName;
 
     public string endSceneName = @"Scenes\End Screen"; // Replace with your actual end screen name
-
 
     // ========================================================================
 
@@ -196,8 +196,6 @@ public static string GetNextScene(string currentSceneName)
     Debug.LogWarning("No next scene found for current scene: " + currentSceneName);
     return null;
 }
-
-
 
 
 }
