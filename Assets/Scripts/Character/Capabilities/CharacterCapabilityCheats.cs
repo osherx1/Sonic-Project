@@ -24,6 +24,12 @@ public class CharacterCapabilityCheats : CharacterCapability
             Debug.Log("Ctrl+W pressed: Resetting character position...");
             ResetPositionToSpawn();
         }
+
+        if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Ctrl+E pressed: Reloading current scene...");
+            ReloadCurrentScene();
+        }
     }
 
     private void ResetPositionToSpawn()
@@ -38,5 +44,10 @@ public class CharacterCapabilityCheats : CharacterCapability
         {
             Debug.LogWarning("Current level is null, cannot reset position.");
         }
+    }
+
+    private void ReloadCurrentScene()
+    {
+        character.currentLevel.ReloadFadeOut(character);
     }
 }
