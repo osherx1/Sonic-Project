@@ -8,7 +8,7 @@ public class ObjGameOver : MonoBehaviour
     private AudioSource audioSource;
     private Canvas canvas;
     private bool isActive = false;
-    public float delayBeforeComplete = 16f;
+    public float delayBeforeComplete = 20f;
 
     private float gameOverTimer = 0f;
     private bool isGameOverActive = false;

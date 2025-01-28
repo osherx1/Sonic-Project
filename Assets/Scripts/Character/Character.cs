@@ -785,6 +785,8 @@ public class Character : GameBehaviour {
             respawnData.position = levelDefault.spawnPosition;
             Respawn();
         }
+
+        capabilities.Add(new CharacterCapabilityCheats(this));
     }
 
 }
