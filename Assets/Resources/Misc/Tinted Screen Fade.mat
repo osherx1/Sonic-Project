@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tinted Screen Fade
-  m_Shader: {fileID: 4800000, guid: dff027ece9c2dac4c87bcecca34e1a9e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 91237f8f7b1aa684d9f21ed5ebe0366e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
