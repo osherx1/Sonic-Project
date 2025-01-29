@@ -35,18 +35,6 @@ public class ObjSignpost : MonoBehaviour {
         levelClearObj.character = character;
         levelClearObj.onNextLevel = onNextLevel;
 
-        // Determine and set the next level using LevelManager
-        string currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-        string nextScene = "";
-
-        if (currentScene == LevelManager.current.DefaultSceneName) {
-            nextScene = LevelManager.current.SecondSceneName;
-        } else if (currentScene == LevelManager.current.SecondSceneName) {
-            nextScene = LevelManager.current.ThirdSceneName;
-        } else if (currentScene == LevelManager.current.ThirdSceneName) {
-            nextScene = "End Screen"; // Replace with your actual end screen scene name
-        }
-
         // levelClearObj.nextLevelName = nextScene; // Add this field to ObjLevelClear to track the next scene name
 
         character.timerPause = true;

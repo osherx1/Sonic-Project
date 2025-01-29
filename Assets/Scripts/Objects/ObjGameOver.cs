@@ -19,7 +19,7 @@ public class ObjGameOver : MonoBehaviour
         // If the Game Over is active, count down the timer
         if (isGameOverActive)
         {
-            gameOverTimer -= Time.unscaledDeltaTime; // Use unscaled time to avoid Time.timeScale issues
+            gameOverTimer -= Time.unscaledDeltaTime;
 
             if (gameOverTimer <= 0f)
             {
@@ -41,7 +41,7 @@ public class ObjGameOver : MonoBehaviour
         }
         else
         {
-            AssignCameraToCanvas(); // Ensure the correct camera is assigned to the Canvas
+            AssignCameraToCanvas();
         }
     }
 
