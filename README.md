@@ -21,9 +21,9 @@
 ## ✨ Features
 - **Tilemap-based Level**: Unity 2D Tilemap for terrain, slopes & loops 🗺️  
 - **Parallax Scrolling**: Multi-layer backgrounds for depth 🌄  
-- **Responsive Player Controller**: Run, jump & “drop dash” with polished physics 🏃‍♂️💨  
+- **Responsive Player Controller**: Run, jump & “Homing Attack” with polished physics 🏃‍♂️💨  
 - **Smooth Camera Follow**: Configurable margins & damping 🎥  
-- **Collectibles & Hazards**: Ring pickups, collapsing platforms & Badnik enemies 💍🐞  
+- **Collectibles & Hazards**: Ring pickups, collapsing platforms & enemies 💍🐞  
 - **Boundary Checks**: Clamp player within level bounds 🚧  
 
 ---
@@ -43,6 +43,7 @@
 **Controls:**
 
 - Move: ← / →
+- Look: ↓ / ↑
 - Jump: "S"
 - Homing Attack: "S" + "S"
 
