@@ -43,8 +43,8 @@
 **Controls:**
 
 - Move: ← / →
-- Jump: Space
-- Homing Attack: Space + Space
+- Jump: "S"
+- Homing Attack: "S" + "S"
 
 ## 🖼️ Screenshots
 ![image](https://github.com/user-attachments/assets/f0eae4ab-7289-4bf3-b792-d01b84789f77)
