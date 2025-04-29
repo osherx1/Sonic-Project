@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 919d3f50bac5a614f851e013034ca67b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6001377158638359099
+    second: Sega Genesis 32X - Sonic the Hedgehog - Credits_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 869
+        width: 318
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -487, y: 232}
+        - {x: -169, y: 232}
+        - {x: -169, y: 454}
+        - {x: -487, y: 454}
+      - - {x: -160, y: 231}
+        - {x: 159, y: 231}
+        - {x: 159, y: 454}
+        - {x: -160, y: 454}
+      - - {x: 169, y: 233}
+        - {x: 486, y: 233}
+        - {x: 486, y: 453}
+        - {x: 169, y: 453}
+      - - {x: -486, y: 1}
+        - {x: -170, y: 1}
+        - {x: -170, y: 221}
+        - {x: -486, y: 221}
+      - - {x: -159, y: 1}
+        - {x: 158, y: 1}
+        - {x: 158, y: 220}
+        - {x: -159, y: 220}
+      - - {x: 168, y: 1}
+        - {x: 486, y: 1}
+        - {x: 486, y: 220}
+        - {x: 168, y: 220}
+      - - {x: -486, y: -232}
+        - {x: -169, y: -232}
+        - {x: -169, y: -11}
+        - {x: -486, y: -11}
+      - - {x: -158, y: -232}
+        - {x: 159, y: -232}
+        - {x: 159, y: -13}
+        - {x: -158, y: -13}
+      - - {x: 169, y: -231}
+        - {x: 486, y: -231}
+        - {x: 486, y: -11}
+        - {x: 169, y: -11}
+      - - {x: 135, y: -587}
+        - {x: 199, y: -587}
+        - {x: 199, y: -494}
+        - {x: 135, y: -494}
+      - - {x: 208, y: -587}
+        - {x: 271, y: -587}
+        - {x: 271, y: -493}
+        - {x: 208, y: -493}
+      - - {x: 280, y: -586}
+        - {x: 342, y: -586}
+        - {x: 342, y: -494}
+        - {x: 280, y: -494}
+      - - {x: 353, y: -585}
+        - {x: 415, y: -585}
+        - {x: 415, y: -493}
+        - {x: 353, y: -493}
+      - - {x: 425, y: -584}
+        - {x: 487, y: -584}
+        - {x: 487, y: -495}
+        - {x: 425, y: -495}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda7385543d6bca0800000000000000
+      internalID: -6001377158638359099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 868
+        width: 317
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8df840940f8094e93b2911518b6df3
+      internalID: 1565061271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_2
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 869
+        width: 317
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a456390149556334abf6e9ae946e4402
+      internalID: 1969376221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 638
+        width: 317
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2b786636271d24eb73fe68071f5329
+      internalID: -149776190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 637
+        width: 317
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30582b9d5a9ae74caca9e7394bee17a
+      internalID: 1195775803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 637
+        width: 316
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80db3201b4c30f479c61b703b9d3ef8
+      internalID: 1907995887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 406
+        width: 315
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25234a3647ec7ed42a9397a7dae58e9d
+      internalID: 1229746873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 406
+        width: 316
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a09e045e3fcea43bfbe60c8d167971
+      internalID: -1732722934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_8
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 404
+        width: 317
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bee22ed9f2b5524c9988abf99df52ec
+      internalID: -776617957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 154
+        width: 319
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e46716b9351cd479451f7f4475614a
+      internalID: 1577840709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_10
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 49
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2ff0d300df1fa48bc7df78190e8ac3
+      internalID: -1828172965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 49
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c9129bad9f23f4a887ec8242c80d85
+      internalID: -1392076033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 49
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903cc8471475fd54d8592afffb72bf76
+      internalID: -1763249494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_13
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 49
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd930d0e6d9de704783a57bb390ec71d
+      internalID: 999951769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_14
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 49
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5014c36e231ced4796cc0243f3d6638
+      internalID: -854569568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 154
+        width: 316
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c51d51d52341334a84d4a3579e84eea
+      internalID: -1872633610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 73
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45edaa4d53d617445a8cd4c9c3bc5e70
+      internalID: -561600380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 73
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73bba8c76e0d841bbf0370637e94c4
+      internalID: 1862000023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277f76b66fca40b4b8b9118609859bc8
+      internalID: 901419211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1407192895039f345a2350a86ba68373
+      internalID: -2054510437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63abd7a009164fe4984ef18f3c310f43
+      internalID: 1315856144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5190976931b6d1c4bb5861c79e65400d
+      internalID: 824673220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_22
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 25
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025e5f388751b144986d1aa7624d85bb
+      internalID: 445068827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis 32X - Sonic the Hedgehog - Credits_23
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 25
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0682fdb69a20d7e47bc4022a251cdc68
+      internalID: 741640648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3849674ec4870ea45aab9b085765a1a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_0: -6001377158638359099
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_1: 1565061271
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_10: -1828172965
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_11: -1392076033
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_12: -1763249494
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_13: 999951769
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_14: -854569568
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_15: -1872633610
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_16: -561600380
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_17: 1862000023
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_18: 901419211
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_19: -2054510437
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_2: 1969376221
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_20: 1315856144
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_21: 824673220
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_22: 445068827
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_23: 741640648
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_3: -149776190
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_4: 1195775803
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_5: 1907995887
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_6: 1229746873
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_7: -1732722934
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_8: -776617957
+      Sega Genesis 32X - Sonic the Hedgehog - Credits_9: 1577840709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
