@@ -5,7 +5,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
  
 
-> Recreating GHZ1 Act 1 from **[Sonic the Hedgehog (SEGA, 1991)](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog)** as part of the Computer Game Development program at Hebrew University & Bezalel.
+> Recreating GHZ1 Act 1 from **[Sonic the Hedgehog (SEGA, 1991)](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game))** as part of the Computer Game Development program at Hebrew University & Bezalel.
 
 ---
 
